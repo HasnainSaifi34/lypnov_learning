@@ -33,6 +33,7 @@ RUN pip install cython
 
 # Copy your notebook and safe_learning folder into the container
 COPY inverted_pendulum.ipynb ./ 
+COPY 1d_example.ipynb ./
 COPY safe_learning ./safe_learning
 
 # Set permissions just in case
