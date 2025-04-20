@@ -28,8 +28,8 @@ RUN pip install pandas==1.1.5
 RUN pip install GPy==1.9.9
 RUN pip install ipywidgets
 RUN pip install jupyterlab
-RUN pip install scikit-learn==0.24.2
 RUN pip install cython
+RUN pip install scikit-learn==0.24.2
 
 # Copy your notebook and safe_learning folder into the container
 COPY inverted_pendulum.ipynb ./ 
